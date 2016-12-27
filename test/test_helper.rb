@@ -11,8 +11,7 @@ class ActiveSupport::TestCase
   def is_logged_in?
     !session[:user_id].nil?
   end
-  
-  # テストユーザーとしてログインする
+
   def log_in_as(user, options = {})
     password    = options[:password]    || 'password'
     remember_me = options[:remember_me] || '1'
@@ -29,7 +28,6 @@ class ActiveSupport::TestCase
 
   private
 
-  # 統合テスト内ではtrueを返す
   def integration_test?
     defined?(post_via_redirect)
   end
