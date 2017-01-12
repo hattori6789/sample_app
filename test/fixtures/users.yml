@@ -2,16 +2,9 @@ michael:
   name: Michael Example
   email: michael@example.com
   password_digest: <%= User.digest('password') %>
-<<<<<<< HEAD
-  admim: true
-=======
   admin: true
-<<<<<<< HEAD
->>>>>>> dd911dd... 9.4.1 admin user [Delete user]
-=======
   activated: true
   activated_at: <%= Time.zone.now %>
->>>>>>> 08e7362... 10.1.1 AccountActivationsリソース
 
 archer:
   name: Sterling Archer

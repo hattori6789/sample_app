@@ -1,0 +1,7 @@
+ja:
+  active_record:
+    models:
+      event: イベント
+    attributes:
+      event:
+        name: 名前
