@@ -7,8 +7,19 @@ class ApplicationController < ActionController::Base
   private
 
   def set_locale
-    extracted_locale = extract_locale_from_ip
+    extracted_locale = params[:locale] ||
+    extract_locale_from_subdomain ||
+    extract_locale_from_accept_language ||
+    extract_locale_from_ip
     I18n.locale = (I18n::available_locales.include? extracted_locale.to_sym) ? extracted_locale : I18n.default_locale
+  end
+
+  def extract_locale_from_subdomain
+    request.subdomains.first
+  end
+
+  def extract_locale_from_accept_language
+    request.env['HTTP_ACCEPT_LANGUAGE'].scan(/^[a-z]{2}/).first
   end
 
   def extract_locale_from_ip
