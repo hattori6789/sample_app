@@ -1,12 +1,5 @@
 ---
 ja:
-  activerecord:
-    errors:
-      messages:
-        record_invalid: "バリデーションに失敗しました: %{errors}"
-        restrict_dependent_destroy:
-          has_one: "%{record}が存在しているので削除できません"
-          has_many: "%{record}が存在しているので削除できません"
   date:
     abbr_day_names:
     - 日
@@ -206,10 +199,15 @@ ja:
   Ruby on Rails Tutorial: Ruby on Railsチュートリアル
   sample application: サンプルアプリケーション
   period: です。
-  activerecord:
-    attributes:
-      user:
-        name: 名前
-        email: Eメール
-        password: パスワード
-        password_confirmation: パスワードの確認
+  home: ホーム
+  help: ヘルプ
+  users: 全てのユーザー
+  account: アカウント
+  profile: プロフィール
+  settings: 設定
+  create_my_account: アカウント作成
+  login: ログイン
+  logout: ログアウト
+  remember_me_on_this_computer: このコンピューターにパスワードを記憶する
+  followers: フォロワー
+  following: フォロー
