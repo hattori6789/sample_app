@@ -1,0 +1,25 @@
+ja:
+  name: 名前
+  email: Eメール
+  password: パスワード
+  password_confirmation: パスワードの確認
+  sign_up_now: 今すぐ登録
+  welcome_to_the_sample_app: Sample Appへようこそ
+  this_is_the_home_page_for_the: このホームページは
+  ruby_on_rails_tutorial: Ruby on Railsチュートリアル
+  sample_application: サンプルアプリケーション
+  period: です。
+  home: ホーム
+  help: ヘルプ
+  users: 全てのユーザー
+  account: アカウント
+  profile: プロフィール
+  settings: 設定
+  create_my_account: アカウント作成
+  login: ログイン
+  logout: ログアウト
+  new_user: 新規ユーザーですか？
+  forgot_password: パスワードを忘れましたか？
+  remember_me_on_this_computer: ブラウザにパスワードを記憶する
+  followers: フォロワー
+  following: フォロー

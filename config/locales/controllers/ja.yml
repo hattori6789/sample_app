@@ -1,0 +1,14 @@
+ja:
+  account_activated: アカウントが有効化されました
+  account_not_activated: このアカウントは有効化されていません
+  invalid_activation_link: 無効なアクティベーションリンクです
+  please_log_in: ログインして下さい
+  micropost_created: 投稿を作成しました
+  micropost_deleted: 投稿を削除しました
+  email_sent_with_password_reset_instructions: パスワード再設定のメールを送信しました
+  email_address_not_found: メールアドレスが見つかりません
+  check_your_email_for_the_activation_link: メールでアカウント有効化のリンクを確認してください
+  invalid_combination_email_and_password: 無効なメールとパスワードの組み合わせ
+  please_check_your_email_to_activate_your_account: メールを確認してアカウントを有効化してください
+  profile_updated: プロフィールが更新されました
+  user_deleted: ユーザーを削除しました

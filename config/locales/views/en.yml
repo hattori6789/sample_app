@@ -1,0 +1,25 @@
+en:
+  name: Name
+  email: Email
+  password: Password
+  password_confirmation: password confirmation
+  sign_up_now: Sign up now
+  welcome_to_the_sample_app: Welcome to the sample app
+  this_is_the_home_page_for_the: This is the home page for the
+  ruby_on_rails_tutorial: Ruby on Rails Tutorial
+  sample_application: sample application
+  period: .
+  home: Home
+  help: Help
+  users: Users
+  account: Account
+  profile: Profile
+  settings: Settings
+  create_my_account: Create my account
+  login: Log in
+  logout: Log out
+  new_user: New user?
+  forgot_password: Forgot password
+  remember_me_on_this_computer: Remember me on this computer.
+  followers: followers
+  following: following

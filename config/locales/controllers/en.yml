@@ -1,0 +1,14 @@
+en:
+  account_activated: Account activated.
+  account_not_activated: Account not activated.
+  invalid_activation_link: Invalid activation link.
+  please_log_in: Please log in.
+  micropost_created: Micropost created!
+  micropost_deleted: Micropost deleted!
+  email_sent_with_password_reset_instructions: Email sent with password reset instructions
+  email_address_not_found: Email address not found
+  check_your_email_for_the_activation_link: Check your email for the activation link.
+  invalid_combination_email_and_password: Invalid email/password combination
+  please_check_your_email_to_activate_your_account: Please check your email to activate your account.
+  profile_updated: Profile updated
+  user_deleted: User deleted
