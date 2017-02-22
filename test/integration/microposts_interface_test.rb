@@ -9,7 +9,7 @@ class MicropostsInterfaceTest < ActionDispatch::IntegrationTest
   test "micropost interface" do
     log_in_as(@user)
     get root_path
-    assert_select 'div.pagination'
+    assert_select 'nav.pagination'
     assert_no_difference 'Micropost.count' do
       post microposts_path, micropost: { content: "" }
     end
@@ -22,7 +22,7 @@ class MicropostsInterfaceTest < ActionDispatch::IntegrationTest
     follow_redirect!
     assert_match content, response.body
     assert_select 'a', text: 'delete'
-    first_micropost = @user.microposts.paginate(page: 1).first
+    first_micropost = @user.microposts.page(1).first
     assert_difference 'Micropost.count', -1 do
       delete micropost_path(first_micropost)
     end
