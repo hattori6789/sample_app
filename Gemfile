@@ -18,6 +18,7 @@ gem 'sdoc',         '0.4.0', group: :doc
 gem 'thor',         '0.19.1'
 gem 'geoip'
 gem 'kaminari'
+gem 'exception_notification'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
