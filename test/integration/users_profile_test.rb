@@ -14,7 +14,7 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
     assert_select 'h1', text: @user.name
     assert_select 'h1>img.gravatar'
     assert_match @user.microposts.count.to_s, response.body
-    assert_select 'nav.pagination'
+    assert_select 'ul.pagination'
     @user.microposts.page(1).each do |micropost|
       assert_match micropost.content, response.body
     end
