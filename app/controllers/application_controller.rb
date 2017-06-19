@@ -19,6 +19,7 @@ class ApplicationController < ActionController::Base
   end
 
   def extract_locale_from_accept_language
+    return 'ja' unless request.env['HTTP_ACCEPT_LANGUAGE']
     request.env['HTTP_ACCEPT_LANGUAGE'].scan(/^[a-z]{2}/).first
   end
 
